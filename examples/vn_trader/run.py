@@ -134,7 +134,7 @@ def main():
     # main_engine.add_app(PaperAccountApp)
 
 
-    
+
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()
 
