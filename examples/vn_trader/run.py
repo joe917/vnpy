@@ -53,7 +53,7 @@ from vnpy.app.cta_backtester import CtaBacktesterApp
 # from vnpy.app.algo_trading import AlgoTradingApp
 from vnpy.app.option_master import OptionMasterApp
 # from vnpy.app.portfolio_strategy import PortfolioStrategyApp
-# from vnpy.app.script_trader import ScriptTraderApp
+from vnpy.app.script_trader import ScriptTraderApp
 # from vnpy.app.market_radar import MarketRadarApp
 # from vnpy.app.chart_wizard import ChartWizardApp
 # from vnpy.app.rpc_service import RpcServiceApp
@@ -122,7 +122,7 @@ def main():
     # main_engine.add_app(AlgoTradingApp)
     main_engine.add_app(OptionMasterApp)
     # main_engine.add_app(PortfolioStrategyApp)
-    # main_engine.add_app(ScriptTraderApp)
+    main_engine.add_app(ScriptTraderApp)
     # main_engine.add_app(MarketRadarApp)
     # main_engine.add_app(ChartWizardApp)
     # main_engine.add_app(RpcServiceApp)
